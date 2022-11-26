@@ -90,6 +90,9 @@ function blob_fixup() {
         vendor/lib64/vendor.qti.hardware.vibrator.impl.so)
             "${PATCHELF}" --replace-needed "android.hardware.vibrator-V1-ndk_platform.so" "android.hardware.vibrator-V1-ndk.so" "${2}"
             ;;                       
+        vendor/lib/libgui1_vendor.so)
+            "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
+            ;;
     esac
 }
 

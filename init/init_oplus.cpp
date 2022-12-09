@@ -38,7 +38,7 @@ void vendor_load_properties() {
 
     switch (rf_version) {
         case 2: // EU
-            if (device == "RMX3360") {
+            if (device == "RMX3360" || device == "lunaa") {
                 OverrideProperty("ro.product.product.model", "RMX3363");
             }
             break;    

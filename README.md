@@ -13,5 +13,5 @@
 |   Oppo K9S           |   OP524F     |
 |   Realme GT          |RMX2202(cupid)|
 |   Realme GT 2        |   RMX3312    |
-|   Realme GT Master   |   RMX3360    |
+|   Realme GT Master   |RMX3360(lunaa)|
 |   Realme Q3S/9 Speed |   RMX3461    |
